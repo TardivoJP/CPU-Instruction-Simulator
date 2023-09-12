@@ -7,7 +7,7 @@ This desktop application takes inputs in the form of instruction codes and opera
 
 For the purpuses of the educational simulation, this fictional instruction set will be used:
 
-![Instructions table](https://i.imgur.com/VNYeMbq.png)
+![Instructions table](https://i.imgur.com/qH8rlrT.png)
 
 The application features two possible input methods, manual and file:
 
@@ -78,7 +78,7 @@ pip install PyQt6 PyInstaller
 ```
 3. Navigate to the source code's directory and run this command to build the application:
 ```sh
-pyInstaller main_window.py --onefile --icon=waifu.ico --add-data "resources;resources" --noconsole
+pyInstaller main_window.py --onefile --noconsole --icon=logo.ico --add-data "resources;resources"
 ```
 4. Run the newly created .exe in the "dist" folder
 
